@@ -1,0 +1,39 @@
+.simple-todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffc2a0;
+  background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .simple-todo-container {
+    width: 50%;
+  }
+}
+.simple-todo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 15px;
+}
+@media screen and (max-width: 768px) {
+  .simple-todo-card {
+    width: 75%;
+  }
+}
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 25px;
+  }
+}
